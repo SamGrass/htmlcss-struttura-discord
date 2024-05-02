@@ -6,4 +6,54 @@
 
 /* regole generali */
 
+.container {
+    width: 75%;
+    margin: auto;
+}
 
+header {
+    min-height: 400px;
+    background-color: blue;
+}
+
+/* regole nav */
+
+#nav-header {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-nav {
+    min-height: 70px;
+    /* debug */
+    background-color: yellow;
+    border: 2px dotted black;
+    
+}
+
+.col-laterali {
+    width: 25%;
+}
+
+#nav-header .col-centrale {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* regole parte main header */
+
+#main-header {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 200px;
+    /* debug */
+    background-color: blueviolet;
+    border: 2px dotted black;
+    
+}
