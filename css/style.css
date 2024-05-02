@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-/* regole generali */
+/* regole generali header */
 
-.container-sezioni, .container-nav {
-    width: 75%;
-    margin: 30px auto;
-}
-
-/* .container-nav {
+.container-header, .container-nav {
     width: 75%;
     margin: 0 auto;
-} */
+}
+
+.container-nav {
+    padding: 20px 0;
+}
+
+.container-header{
+    padding-bottom: 50px;
+}
 
 header {
     min-height: 300px;
@@ -65,4 +68,16 @@ header {
 
 .container-main {
     min-height: 100px;
+}
+
+/* regole section main */
+
+.container-sezioni {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.col-main {
+    display: flex;
+
 }
