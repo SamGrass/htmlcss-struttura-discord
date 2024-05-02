@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-/* regole generali header */
-
 .larghezza-contenuto {
     width: 75%;
     margin: 0 auto;
     padding: 40px 0;
 }
+
+/* regole generali header */
+
 
 .container-nav {
     padding: 20px 0;
@@ -22,6 +23,9 @@
 
 header {
     min-height: 300px;
+
+    /* debug */
+
     background-color: blue;
 }
 
@@ -34,8 +38,10 @@ header {
 }
 
 .col-nav {
-    min-height: 70px;
+
     /* debug */
+
+    min-height: 70px;
     background-color: yellow;
     border: 2px dotted black;
     
@@ -58,8 +64,10 @@ header {
 #main-header {
     width: 80%;
     margin: 0 auto;
-    min-height: 200px;
+
     /* debug */
+
+    min-height: 200px;
     background-color: blueviolet;
     border: 2px dotted black;
     
@@ -67,12 +75,8 @@ header {
 
 /* regole generali main */
 
-.container-main {
-    min-height: 100px;
-}
-
 .container-grey{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.15);
 }
 
 /* regole sezione 2 colonne */
@@ -103,5 +107,60 @@ header {
 
 .img-col-sx{
     flex-direction: row-reverse;
+}
+
+/* regole main centrale */
+
+.container-sezione {
+    
+    /* debug */
+    
+    background-color: green;
+    min-height: 600px;
+    border: 2px dotted black;
+}
+
+/* regole generali footer */
+
+footer {
+    background-color: rgb(9, 3, 27);
+    min-height: 200px;
+}
+
+/* regole social e link */
+
+.col-nav-footer {
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+#social{
+    width: 30%;
+
+    /* debug */
+
+    min-height: 500px;
+    background-color: brown;
+    border: 2px dotted black;
+}
+
+.link-utili{
+    width: calc(70% / 4);
+
+    /* debug */
+
+    min-height: 500px;
+    background-color: aqua;
+    border: 2px dotted black;
+}
+
+/* regole parte finale footer */
+
+.col-footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
