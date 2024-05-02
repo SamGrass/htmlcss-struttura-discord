@@ -6,9 +6,10 @@
 
 /* regole generali header */
 
-.container-header, .container-nav {
+.larghezza-contenuto {
     width: 75%;
     margin: 0 auto;
+    padding: 40px 0;
 }
 
 .container-nav {
@@ -16,7 +17,7 @@
 }
 
 .container-header{
-    padding-bottom: 50px;
+    padding: 0 0 50px ;
 }
 
 header {
@@ -70,14 +71,37 @@ header {
     min-height: 100px;
 }
 
-/* regole section main */
-
-.container-sezioni {
-    width: 75%;
-    margin: 50px auto;
+.container-grey{
+    background-color: grey;
 }
 
-.col-main {
+/* regole sezione 2 colonne */
+
+.container-2-col {
     display: flex;
-
 }
+
+.immagine-discord {
+    width: 40%;
+
+    /* debug */
+
+    background-color: red;
+    min-height: 150px;
+    border: 2px dotted black;
+}
+
+.testo-col {
+    width: 60%;
+
+    /* debug */
+
+    background-color: blue;
+    min-height: 150px;
+    border: 2px dotted black;
+}
+
+.img-col-sx{
+    flex-direction: row-reverse;
+}
+
