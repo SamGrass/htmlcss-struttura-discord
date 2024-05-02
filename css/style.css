@@ -6,21 +6,24 @@
 
 /* regole generali */
 
-.container {
+.container-sezioni, .container-nav {
     width: 75%;
-    margin: auto;
+    margin: 30px auto;
 }
 
+/* .container-nav {
+    width: 75%;
+    margin: 0 auto;
+} */
+
 header {
-    min-height: 400px;
+    min-height: 300px;
     background-color: blue;
 }
 
 /* regole nav */
 
 #nav-header {
-    padding-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,4 +59,10 @@ header {
     background-color: blueviolet;
     border: 2px dotted black;
     
+}
+
+/* regole generali main */
+
+.container-main {
+    min-height: 100px;
 }
