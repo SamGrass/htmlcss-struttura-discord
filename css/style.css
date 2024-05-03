@@ -83,6 +83,7 @@ header {
 
 .container-2-col {
     display: flex;
+    align-items: center;
 }
 
 .immagine-discord {
@@ -103,10 +104,6 @@ header {
     background-color: blue;
     min-height: 150px;
     border: 2px dotted black;
-}
-
-.img-col-sx{
-    flex-direction: row-reverse;
 }
 
 /* regole main centrale */
